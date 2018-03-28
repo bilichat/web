@@ -70,12 +70,12 @@
                                 <hr>
                                 <div class="version-content">
                                     <p>
-                                        <span class="el-icon-time"></span> 最新版本：v0.1.0
+                                        <span class="el-icon-time"></span> 最新版本：v1.0
                                         <a :href="downloadLink" target="_blank">
                                             <span class="el-icon-download">下载</span>
                                         </a>
                                     </p>
-                                    <p><span class="el-icon-date"></span> 发布时间：2018-03-18</p>
+                                    <p><span class="el-icon-date"></span> 发布时间：2018-04-01</p>
                                     <p><span class="el-icon-document"></span> 更新内容：发布测试版</p>
                                 </div>
                             </el-col>
@@ -117,7 +117,7 @@
         name: 'app',
         data () {
             return {
-                downloadLink: 'Welcome to Your Vue.js App',
+                downloadLink: "https://github.com/bilichat/web/releases/download/1.0/bilichat_1.0.crx",
                 questions: [
                     {
                         q: '这个扩展是B站官方出的吗？为什么可以直接使用我的B站账号登录？我的账号安全吗？',
@@ -125,7 +125,7 @@
                     },
                     {
                         q: '我的浏览器为什么装不了或者装了无法用？',
-                        a: '这个扩展是chrome浏览器（俗称谷歌浏览器）、包括使用chrome核心的浏览器才可以安装使用的扩展，其他浏览器暂时不支持。本人测试过的浏览器有：Chrome浏览器,360速度浏览器（不是360安全浏览器哦）,QQ浏览器，百度浏览器。请尽量使用这些浏览器。'
+                        a: '这个扩展是chrome浏览器（俗称谷歌浏览器）、包括使用chrome核心的浏览器才可以安装使用的扩展，其他浏览器暂时不支持。本人测试过的浏览器有：Chrome浏览器,360极速浏览器（不是360安全浏览器哦）,QQ浏览器，百度浏览器。请尽量使用这些浏览器。'
                     }
                 ]
             }
