@@ -89,6 +89,8 @@
                             2. 打开浏览器的“扩展程序”页面，根据不同的浏览器，地址可能不同。<br/>
                             Chrome浏览器的地址是：chrome://extensions/<br>
                             QQ浏览器的地址是：qqbrowser://extensions/<br>
+                            360极速浏览器地址是：chrome://myextensions/extensions/<br>
+                            Opera浏览器地址是:chrome://extensions/
                             接下会来以QQ浏览器安装为例
                         </p>
                         <p>3. 把刚才下载的crx文件拖动到扩展程序页面，就会弹出安装提示。如图：</p>
