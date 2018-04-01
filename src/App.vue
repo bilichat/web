@@ -76,7 +76,7 @@
                                         </a>
                                     </p>
                                     <p><span class="el-icon-date"></span> 发布时间：2018-04-01</p>
-                                    <p><span class="el-icon-document"></span> 更新内容：发布测试版</p>
+                                    <p><span class="el-icon-document"></span> 更新内容：发布测试版。测试版本可能不稳定，见谅。</p>
                                 </div>
                             </el-col>
                         </el-row>
@@ -105,6 +105,9 @@
                             <h4>{{q.q}}</h4>
                             <p>{{q.a}}</p>
                         </div>
+                        <p>
+                            有其他问题可以<a href="https://message.bilibili.com/#/whisper/mid300649378" target="_blank">发私信给我</a>
+                        </p>
                     </el-card>
                 </div>
             </el-main>
